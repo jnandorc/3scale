@@ -5,7 +5,7 @@ require_once('lib/ThreeScaleClient.php');
 $client = new ThreeScaleClient();
 
 // the service token
-$service_token = "7817e8cd5df81d0429941ae8b4c0b717761d18df9261904046ee3fb7273796841";
+$service_token = "7817e8cd5df81d0429941ae8b4c0b717761d18df9261904046ee3fb727379684";
 
 // the service_id
 $service_id = "2555417766154";
@@ -17,9 +17,9 @@ $response = $client->authrep_with_user_key($user_key, new ThreeScaleClientCreden
 
 if ($response->isSuccess()) {
   // All fine, proceeed.
-	echo "fine2!";
+	echo "Hits procesado correctamente!";
 } else {
   // Something's wrong with this app.
-	echo "worng";
+	echo "Error al procesar Hit";
 }		  
 ?>
