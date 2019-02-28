@@ -5,7 +5,7 @@ require_once('lib/ThreeScaleClient.php');
 $client = new ThreeScaleClient();
 
 // the service token
-$service_token = "7817e8cd5df81d0429941ae8b4c0b717761d18df9261904046ee3fb727379684";
+$service_token = "7817e8cd5df81d0429941ae8b4c0b717761d18df9261904046ee3fb72737968411";
 
 // the service_id
 $service_id = "2555417766154";
