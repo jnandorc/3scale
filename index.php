@@ -11,7 +11,7 @@ $service_token = "7817e8cd5df81d0429941ae8b4c0b717761d18df9261904046ee3fb7273796
 $service_id = "2555417766154";
 
 // you will usually obtain app_id and app_key from the request params
-$user_key = "9d364e3cef20438858970155df5afce2";
+$user_key = "6f35cdd9aa9c6d3ac96ef9cf24c48d15";
 
 $response = $client->authrep_with_user_key($user_key, new ThreeScaleClientCredentials($service_id, $service_token), array('hits' => 1));
 
