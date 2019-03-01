@@ -21,5 +21,5 @@ if ($response->isSuccess()) {
 } else {
   // Something's wrong with this app.
 	echo "Error al procesar Hit";
-}		  
+}
 ?>
